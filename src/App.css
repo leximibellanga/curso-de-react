@@ -1,0 +1,24 @@
+.App {
+  max-width: 1280px;
+  margin: auto;
+  text-align: center;
+  padding: 1rem .8rem;
+}
+
+.App-formatacao {
+  text-align: left;
+}
+
+.App-img {
+  text-align: center;
+}
+
+.appImg {
+  width: 40%;
+}
+
+@media (width <= 768px) {
+  .appImg {
+    width: 80%;
+  }
+}

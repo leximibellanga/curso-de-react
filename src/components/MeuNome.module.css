@@ -1,0 +1,10 @@
+.meuNomeContainer {
+    background-color: crimson;
+    color: #fff;
+    padding: .4rem;
+    text-align: center;
+}
+
+.meuNomeContainer span {
+    font-weight: bold;
+}
