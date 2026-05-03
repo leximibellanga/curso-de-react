@@ -14,6 +14,7 @@ function App() {
   function anoActual() {
     return new Date().getFullYear(); 
   }
+
   function calcularIdade(anoNasc) {
     return anoActual() - anoNasc;
   }
@@ -74,9 +75,6 @@ function App() {
 
         {/* Mais de uma prop */}
         <Pessoa nome="Chelddy" idade="15" foto="https://via.placeholder.com/150" profissao="Programador" />
-
-         
-
       </div>
     </div>
   )
