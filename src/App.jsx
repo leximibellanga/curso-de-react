@@ -4,6 +4,9 @@ import './App.css'
 import MeuNome from './components/MeuNome';   // componente com props
 import OlaMundo from './components/OlaMundo'; // componente sem props
 import Pessoa from './components/Pessoa';
+// images
+import imagem from './assets/images/perfil.jpg'
+
 
 function App() {
   // Logica 
@@ -74,7 +77,7 @@ function App() {
         <br /><br />
 
         {/* Mais de uma prop */}
-        <Pessoa nome="Chelddy" idade="15" foto="https://via.placeholder.com/150" profissao="Programador" />
+        <Pessoa nome={`Chelddy Langa`} idade={`15`} foto={imagem} profissao={`Eng. Eletronico`} />
       </div>
     </div>
   )
