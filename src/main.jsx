@@ -14,9 +14,16 @@ import UseState from './pages/useState/useState.jsx'
 import MetodosProps from './pages/MetodosProps/MetodosProps.jsx'
 import RenderizacaoCondicional from './pages/RenderizacaoCondicional/RenderizacaoCondicional.jsx'
 import RenderizacaoListas from './pages/RenderizacaoListas/RenderizacaoListas.jsx'
+import StateLift from './pages/StateLift/StateLift.jsx'
+import ReactRouter from './pages/ReactRouter/ReactRouter.jsx'
+import ReactIcons from './pages/ReactIcons/ReactIcons.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+    <App />
+
+
+{/* =================== AULAS ======================== */}
     {/* Aula 01 */}
     {/* <PrimeiroContacto /> */}
     {/* =============================== */}
@@ -48,18 +55,24 @@ createRoot(document.getElementById('root')).render(
 
 
     {/* Aula13 */}
-    <RenderizacaoListas />
+    {/* <RenderizacaoListas /> */}
     {/* =============================== */}
 
 
-
-
+    {/* Aula14 */}
+    {/* <StateLift /> */}
+    {/* =============================== */}
     
 
+    {/* Aula15 */}
+    {/* <ReactRouter /> */}
+    {/* =============================== */}
+    
 
+    {/* Aula16 */}
+    {/* <ReactIcons /> */}
+    {/* =============================== */}
 
-
-    {/* <App /> */}
   </StrictMode>,
 )
 
